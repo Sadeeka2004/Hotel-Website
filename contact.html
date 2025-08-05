@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+            content="width=device-width, initial-scale=1.0">
+        
+        <title>Blue Rose Queens Hotel-Contact Details</title>
+           <style>
+
+            body{
+                font-family:Arial,sans-serif;
+                margin:0;
+                padding:0;
+                }
+            
+            header{
+                background-color:#5de0e6;
+                color:#004aad;
+                text-align:center;
+                padding:12px;
+                }
+
+            header img{
+                width:120px;
+                height:120px;
+                vertical-align:middle;
+                }
+
+            header h1{
+                display:inline;
+                margin-left:10px;
+                }
+
+           .marquee-container {
+            width: 100%;
+            overflow: hidden;
+            background-color: #5de0e6;
+        }
+        .marquee-text {
+            display: inline-block;
+            padding-left: 100%;
+            font-size: 24px;
+            color: #0077b6;
+            font-weight: bold;
+            white-space:nowrap;
+            animation: marquee 15s linear infinite;
+        }
+        @keyframes marquee {
+            0% {
+                transform: translateX(100%);
+            }
+            100% {
+                transform: translateX(-100%);
+            }
+        }        
+
+            nav {
+                text-align:center;
+                background-color:#000080;
+                padding:10px;
+                }
+
+            nav a{
+                margin:20px;
+                color:#cdffd8;
+                text-decoration:none;
+                }
+
+            header nav a:hover{
+                color:#FF0000;
+                text-decoration: underline;
+                }
+
+                #contact {
+            background-color: white;
+            padding: 50px;
+            text-align: center;
+        }
+
+            .contact-form {
+            max-width: 600px;
+            margin: 0 auto;
+            text-align: left;
+        }
+            
+        #contact h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .contact-form{
+            max-width:600px;
+            margin:0 auto;
+            text-align:left;
+            }
+
+        .contact-form input,
+        .contact-form textarea{
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 16px;
+            box-sizing:border-box;
+        }
+
+        .contact-form button {
+            padding: 10px 20px;
+            background-color: #0066cc;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        .contact-form button:hover {
+            background-color: #0055a1;
+        }
+              
+
+.subscribe button {
+            padding: 8px;
+            background-color: #ff0000;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s,                  transform 0.3s;
+        }
+
+        
+        .subscribe button:hover {
+            background-color: #ff4500;  
+            transform: scale(1.1);  
+        }               
+            </style>
+               
+
+        
+    </head>
+    <body>
+<header>
+            <img src="Blue Rose Queens Hotel Logo.png" alt="Hotel Logo">
+            <h1>Blue Rose Queens Hotel</h1>
+     <div class="marquee-container">
+    <div class="marquee-text">
+        Get in touch with us and experience the Blue Rose hospitality!
+        </div>
+        </div>
+</header>
+
+       <nav>
+            <ul>
+        
+            <a href="home.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="facilities.html">Facilities</a>
+            <a href="contact.html">Contact</a>
+            <a href="book now.html">Book Now</a>
+
+        </ul>
+        </nav>  
+
+        
+<section id="contact">
+        <h1>Contact Us</h1>
+        <p>If you have any inquiries, feel free to reach out to us using the form below:</p>
+
+        
+        <div>
+            <h3>Hotel Address:</h3>
+            <p>Blue Rose Queens Hotel, No.122, Beach side, Galle.</p>
+            <h3>Phone:</h3>
+            <p>+350 122 0908</p>
+            <h3>Email:</h3>
+            <p><a href="mailto:info@bluerosehotel.com">info@bluerosehotel.com</a></p>
+        </div>
+
+    
+        <form class="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" name="subject" placeholder="Subject" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" placeholder="Your Message" required></textarea>
+            <style>
+                
+ input[type="radio"]{
+                   margin-right:10px;
+                   }
+               label{
+                   font-size:18px;
+                   display:inline-flex;
+                   align-items:ceter;
+                   margin-right:20px;
+                   }                
+            </style>
+            
+            <label for="customer-type"><big>Are you a new customer?</big></label><br>
+            <label for="new-customer">
+                <input type="radio" id="new-customer" name="customer_type" value="new">New Customer</label>
+                                                                <label for="existing-customer">
+                <input type="radio" id="existing-customer" name="customer_type" value="existing">Existing Customer
+                                                                    </label><br>
+            
+            <button type="submit">Submit</button>
+        </form>
+
+    
+        <h2>Our Location</h2>
+        <div>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63480.84757331072!2d80.17079703154536!3d6.055889995973846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae173bb6932fce3%3A0x4a35b903f9c64c03!2sGalle!5e0!3m2!1sen!2slk!4v1743060194306!5m2!1sen!2slk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>        
+        </div>
+    </section>
+
+        
+
+        <footer style="background-color: #add8e6; color: black; text-align: center; padding: 20px 0;">
+    <div class="container">
+    
+        <div class="contact-info">
+            <p><strong>Contact Us:</strong></p>
+                        <p>Blue Rose Queens Hotel, No.122, Beach side, Galle.</p>
+                        <p>Phone: +350 122 0908</p>
+            <p>Email: info@bluerosehotel.com</p>
+        </div>
+
+        
+        <div class="social-media">
+            <p><strong>Follow Us:</strong></p>
+            <a href="https://facebook.com" target="_blank">Facebook</a> |
+            <a href="https://twitter.com" target="_blank">Twitter</a> |
+            <a href="https://instagram.com" target="_blank">Instagram</a> |
+            <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+        </div>
+            
+
+        <div class="subscribe">
+            <p><strong>Subscribe to our Newsletter:</strong></p>
+            <form action="/subscribe" method="POST">
+<input type="email" placeholder="Enter your email" required style="padding: 8px;">
+                <button type="submit" style="padding: 8px; background-color: #ff0000; color: white; border: none;">Subscribe</button>
+            </form>
+        </div>
+
+        
+        <div class="footer-bottom">
+            <p>&copy; 2025 Blue Rose Queens Hotel. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+
+    </body>
+        </html>
+        
