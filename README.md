@@ -13,3 +13,17 @@ https://sadeeka2004.github.io/Hotel-Website/
 ## 🛠️ Technologies
 - HTML5
 - CSS3 (Flexbox / Grid)
+
+## 📂 Project Structure
+Hotel-Website/
+├─ index.html
+├─ about.html
+├─ facilities.html
+├─ contact.html
+└─ book now.html
+
+
+## ▶️ Run Locally
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/Sadeeka2004/Hotel-Website.git
