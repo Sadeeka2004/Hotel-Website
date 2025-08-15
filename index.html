@@ -361,13 +361,19 @@
       margin-bottom: 30px;
       color: #333;
     }
-
+            
+    .testimonial-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+            
     .testimonial-card {
-      display: inline-block;
-      width: 300px;
-      padding: 30px;
+      flex: 1 1 250px;
+      max-width: 300px;
+      padding: 20px;
       background-color: #fff;
-      margin: 20px;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
       border-radius: 10px;
       text-align: center;
@@ -404,11 +410,6 @@
 
 
     @media (max-width: 768px) {
-      .testimonial-card {
-        width: 100%;
-        margin: 10px 0;
-      }
-
       .testimonials h2 {
         font-size: 2rem;
       }
@@ -419,6 +420,7 @@
 
   <section class="testimonials">
     <h2>What Our Guests Are Saying</h2>
+    <div class="testimonials-container">
 
     <div class="testimonial-card">
       <img src="https://via.placeholder.com/80" alt="Guest 1">
